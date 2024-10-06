@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/097dcced-996e-4df3-a618-d2d1811d5ea0)
 
 ## Overview
-The Spelling Bee Synthesizer is a web application designed to assist students in practicing for spelling bees. This tool utilizes the Google Cloud Text-to-Speech (TTS) API, service workers, and Google Apps Scripts to automate the pronunciation of words through a server endpoint.
+The Spelling Bee Synthesizer is a web application made with Google Sheets, Google Apps Scripts, and a Flask Server acting as a REST API endpoint designed to assist students in practicing for spelling bees. This tool utilizes the Google Cloud Text-to-Speech (TTS) API, service workers, and Google Apps Scripts to automate the pronunciation of words through a server endpoint.
 
 ## Features
 
@@ -98,5 +98,5 @@ function populateData() {
 
 ## Security Considerations
 
-- **API Security:** The current implementation has basically no security, since the endpoint is publicly exposed and the script on the web server checks for GET requests to pronounce a word. Consider implementing authentication, or make sure that the IP address/domain is not known.
+- **API Security:** The current implementation has basically no security, since the REST API endpoint is publicly exposed, and the script running on the web server only checks for GET requests. Consider implementing authentication, or make sure that the IP address/domain is not known.
 - **Sensitive Information:** Ensure that sensitive API keys and credentials are stored securely and not exposed in public repositories.
