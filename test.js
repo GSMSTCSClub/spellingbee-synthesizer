@@ -1,4 +1,4 @@
-var wordnik_key = "ovjzj7nuoxeemkomgl5byw5alrbe2ga5gdz2hkp2n6ic74iph";
+var wordnik_key = "REDACTED";
 
 const openMediaPlayer = () => {
 	const cell = SpreadsheetApp.getActiveSheet().getActiveCell().getValue();
