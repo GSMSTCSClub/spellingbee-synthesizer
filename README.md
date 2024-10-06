@@ -72,7 +72,7 @@ The Spelling Bee Synthesizer is a web application made with Google Sheets, Googl
 
 ### Key Scripts
 
-- **Spelling_bee_functions.js:** 
+- **spelling_bee_functions.js:** 
   - Contains functions to fetch definitions, handle audio playback, and populate data in Google Sheets.
 
 - **fetch.py:** 
